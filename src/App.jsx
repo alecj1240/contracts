@@ -437,7 +437,8 @@ export default function App() {
           abi: JSON.parse(contractInfo["ABI"]) }}
         />
         </div>) : null }
-     
+
+      <p>Note: you're wallet will need to be collected to run any smart contract functions</p>
 		</Wrapper>
 	);
 }
